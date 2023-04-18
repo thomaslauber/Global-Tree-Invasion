@@ -1,4 +1,7 @@
-# 01_DataPrep
+# 01_dataPrep.R
+This script condenses the GFBI dataframe per plot per year. 
+
+# 02_dataJoin.py
 This script is written in python, and requires access to Google Earth Engine via the python API (https://developers.google.com/earth-engine/tutorials/community/intro-to-python-api). 
 
 The main purpose of the script is to evaluate the invasion status of each species occurrence in the GFBI data based on information gathered from the GloNAF and Kew database. Initially, the data from GFBI is filtered using BGCI to only contain trees. Then, the unique coordinates of the GFBI sample locations are spatially joined with the geospatial information in both GloNAF and Kew. Using the information from the spatial join, the invasion status for each species at each location in GFBI is extracted from both GloNAF and Kew. For further steps of the analysis all data points with incongruent invasion status for GloNAF and Kew were excluded. 
