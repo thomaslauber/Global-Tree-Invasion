@@ -14,3 +14,6 @@ This folder holds the pipeline.py file that contains all functions needed to run
 1. Data preparation 
 2. Cross-Validation
 3. Mapping (model training, testing and prediction)
+
+## figures
+This folder contains script to create the figures using QGIS.
