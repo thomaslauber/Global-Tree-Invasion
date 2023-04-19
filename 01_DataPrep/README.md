@@ -19,4 +19,4 @@ This script determines the invasion metrics for each plot.
 These scripts join the repeated data, the data of all plots, as well as FD and PD data for the analyses. The scripts with '_noupsample' in their name use no upsampling.
 
 # 07_IntactSubset.R
-This script subsets the data to plots occurring in intact/protected areas
+This script subsets the data to plots occurring in intact/protected areas.
