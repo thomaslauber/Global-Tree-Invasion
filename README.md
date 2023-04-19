@@ -4,7 +4,7 @@ This repository contains scripts for the data preparation and the analysis of th
 
 The repository contains two main folders: 
 * **01_DataPrep** contains scripts for data preparation for analysis
-* **02_Analysis** contains scripts for the main analysis done for the paper
+* **02_Analysis** contains scripts for the main analyses done for the paper
 
 
 ## Data used
