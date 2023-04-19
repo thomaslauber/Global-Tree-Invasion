@@ -1,4 +1,4 @@
-# Native diversity buffers against severity of non-native tree invasions globally 
+# Native diversity buffers against severity of non-native tree invasions
 
 This repository contains scripts for the data preparation and the analysis of the paper "Native diversity buffers against severity of non-native tree invasions". 
 
