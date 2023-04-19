@@ -3,7 +3,7 @@
 This repository contains scripts for the data preparation and the analysis of the paper "Native diversity buffers against severity of non-native tree invasions". 
 
 The repository contains two main folders: 
-* **01_DataPrep** contains scripts for the merging the necessary database information included in the analysis of this paper (GFBI, GloNAF, Kew, BCGI) and to compute diversity metrics
+* **01_DataPrep** contains scripts for data preparation for analysis
 * **02_Analysis** contains scripts for the main analysis done for the paper
 
 
