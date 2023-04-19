@@ -2437,18 +2437,6 @@ def performanceEvaluation(finalData):
     plt.title('Calibration curve')
     plt.savefig(outputPath + '/outputs/Calibration_Curve.pdf')
     plt.show()
-
-    from sklearn.metrics import log_loss
-    log_loss(y_true, y_pred)
-    log_loss(y_true, y_cal)
-    from sklearn.metrics import brier_score_loss
-    (1 - brier_score_loss(y_true, y_cal) / brier_score_loss(y_true, y_pred) )* 100
-
-
-
-
-
-
     print('Platt Scaling intercept: ', np.round(lr.intercept_[0], decimals=4))
     print('Platt Scaling coefficient: ', np.round(lr.coef_[0][0], decimals=4))
 
