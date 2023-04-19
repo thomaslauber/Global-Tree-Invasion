@@ -3,9 +3,8 @@
 This repository contains scripts for the data preparation and parts of the analysis of the paper "Native diversity buffers against severity of non-native tree invasions globally". 
 
 The repository contains three main folders: 
-* **01_DataPrep** contains a python script for the merging of the necessary database information included in the analysis of this paper (GFBI, GloNAF, Kew, BCGI),
-* **02_Analysis** contains scripts for parts of the main analysis done for the paper and 
-* **03_Figures** contains the python scripts needed to generate the figures in QGIS.
+* **01_DataPrep** contains scripts for the merging the necessary database information included in the analysis of this paper (GFBI, GloNAF, Kew, BCGI) and to compute diversity metrics,
+* **02_Analysis** contains scripts for parts of the main analysis done for the paper.
 
 
 ## Data used
