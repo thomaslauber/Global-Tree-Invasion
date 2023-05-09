@@ -364,10 +364,3 @@ GFBI_master = GFBI_master.fillna({'Kew_level3_cod':'no_region_match', 'Kew_intro
 # Save the master file
 GFBI_master.to_csv(dataPath + '/' + 'GFBI_Glonaf_Kew_Master.csv')
 
-
-
-GFBI_master
-plotYear_overview = GFBI_master[['GFBI_plot_id', 'year']].groupby('GFBI_plot_id')['year'].unique().reset_index(drop=False)
-
-argmax = np.where(plotYear_overview['year'].str.len() == plotYear_overview['year'].str.len().max())[0]
-plotYear_overview.iloc[argmax]
