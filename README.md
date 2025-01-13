@@ -2,13 +2,9 @@
 
 This repository contains scripts for the data preparation and the analysis of the paper ["Native diversity buffers against severity of non-native tree invasions"](https://doi.org/10.1038/s41586-023-06440-7). We found that human pressures are key to whether an ecosystem gets invaded, but native biodiversity controls invasion severity, meaning higher biodiversity leads to lower invasion severity. Based on these relationships, we mapped the invasion probability across global forests. 
 
-| ![graphical description of results](readme_imgs/Fig1.png) | 
-|:--:| 
-| (Above) Native diversity (phylogenetic & functional) is the most important driver of invasion severity.
-(Below) Map of non-native invasion probability inside the area of applicability. |
-
-
-
+![graphical description of results](readme_imgs/Fig1.png)
+*(Above) Native diversity (phylogenetic & functional) is the most important driver of invasion severity.*
+*(Below) Map of non-native invasion probability inside the area of applicability.*
 
 The repository contains two main folders: 
 * **01_DataPrep** contains scripts for data preparation for analysis
